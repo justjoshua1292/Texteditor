@@ -1,10 +1,6 @@
-# Unit 19 PWA Homework: Text Editor
+# Unit 19 PWA: Text Editor
 
-## Your Task
-
-As you progressed through this course, you have put together a number of impressive projects that can be shown off to potential employers. This project is no exception; in fact, it features some of the most impressive aspects of the concepts you have learned so far.
-
-Your task is to build a text editor that runs in the browser. The editor will be a single page application that meets the PWA criteria. Additionally the application will feature a number of data persistence techniques that will serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+OUR task is to build a text editor that runs in the browser. The editor will be a single page application that meets the PWA criteria. Additionally the application will feature a number of data persistence techniques that will serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
 You will take an existing application that is already built and implement the methods for getting and storing data to an IndexedDB database. You will be using a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
@@ -50,83 +46,7 @@ THEN I should have proper build scripts for a webpack application
 
 ## Mock-Up
 
-The following animation demonstrates the application functionality:
-
-![Demonstration of the finished Unit 19 Homework being used in the browser and then installed.](./Assets/00-demo.gif)
-
-The following image shows the application's `manifest.json` file:
-
-![Demonstration of the finished Unit 19 Homework with a manifest file in the browser.](./Assets/01-manifest.png)
-
-The following image shows the application's registered service worker:
-
-![Demonstration of the finished Unit 19 Homework with a registered service worker in the browser.](./Assets/02-service-worker.png)
-
-The following image shows the application's IndexedDB storage:
-
-![Demonstration of the finished Unit 19 Homework with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
-
-  * The application works without an internet connection
-
-  * Automatically saves content inside the text editor when the DOM window is unfocused
-
-  * Bundled with webpack
-
-  * Create a service worker with workbox that Caches static assets
-
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![Screenshot (418)](https://user-images.githubusercontent.com/83887301/141012819-50023e6e-e6b5-490e-b3cc-ff1ba0d740bb.png)
+![Screenshot (419)](https://user-images.githubusercontent.com/83887301/141012821-30b78772-e2c6-4a34-a1a5-791fcc77fd16.png)
+![Screenshot (420)](https://user-images.githubusercontent.com/83887301/141012823-927b646f-905c-4acd-a931-4abc6bd444f5.png)
+![Screenshot (421)](https://user-images.githubusercontent.com/83887301/141012824-a43c3b31-7612-4e31-b42c-1d42075aa7d5.png)
