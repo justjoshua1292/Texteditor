@@ -29,7 +29,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'Text editor by JOSHUA',
-        short_name: 'J.O.S.H.',
+        short_name: 'Josh',
         description: 'Text for dummies!',
         start_url: '/',
         publicPath: '/',
